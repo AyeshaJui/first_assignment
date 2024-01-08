@@ -83,6 +83,7 @@ body {
   margin: auto;
   margin-top: 35px;
 }
+
 /* Party section start */
 
 .midnight-party-section {
@@ -93,8 +94,7 @@ body {
   height: 600px;
   width: 82.5%;
   max-width: 1320px;
-  margin: 50px auto;
-  margin-top: 90px;
+  margin: 90px auto;
 }
 
 .party-section {
@@ -153,8 +153,7 @@ body {
   height: 482px;
   width: 82.5%;
   max-width: 1320px;
-  margin: 50px auto;
-  margin-top: 90px;
+  margin: 90px auto;
 }
 
 .third-section-div {
@@ -184,3 +183,47 @@ body {
   border: none;
   margin-top: 64px;
 }
+
+/* Fourth section start */
+
+/* Fifth Section start */
+
+/* sixth Section start */
+.sixth-section {
+  height: 600px;
+  width: 82.5%;
+  max-width: 1320px;
+  margin: 90px auto;
+}
+.sixth-section h3 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.sixth-section h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.sixth-section p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-bottom: 48px;
+}
+
+.portfolio-img {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  gap: 20px;
+}
+
