@@ -190,7 +190,6 @@ body {
 
 /* sixth Section start */
 .sixth-section {
-  height: 600px;
   width: 82.5%;
   max-width: 1320px;
   margin: 90px auto;
@@ -221,9 +220,29 @@ body {
 }
 
 .portfolio-img {
-  display: flex;
-  justify-content: space-between;
-  flex-flow: wrap;
+  display: grid;
+  grid-template-columns: auto auto auto;
   gap: 20px;
+}
+
+
+
+/* seventh section start */
+
+.seven-section{
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  background-position: center;
+  height: 482px;
+  width: 82.5%;
+  max-width: 1320px;
+  margin: auto;
+  border-radius: 16px; 
+ text-align: center;
+
+  
 }
 
