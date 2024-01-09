@@ -225,24 +225,70 @@ body {
   gap: 20px;
 }
 
-
-
 /* seventh section start */
 
-.seven-section{
-  background: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
+.seven-section {
+  background: rgba(255, 0, 0, 0.05);
   background-position: center;
-  height: 482px;
   width: 82.5%;
   max-width: 1320px;
   margin: auto;
-  border-radius: 16px; 
- text-align: center;
-
-  
+  border-radius: 16px;
+  text-align: center;
 }
 
+.seven-section img {
+  padding: 80px 0 0 0;
+}
+
+.seventh-section-div h2 {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+.seventh-section-div p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+  margin-top: 22px;
+}
+
+.seventh-section-div form input {
+  width: 36%;
+  border-radius: 50px 0 0 50px;
+  background: #fff;
+  margin-top: 48px;
+  padding: 20px 28px;
+  border: none;
+  outline: none;
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+.seventh-section-div form button {
+  width: 180px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: none;
+  outline: none;
+  padding: 19px 30px;
+  cursor: pointer;
+}
+
+.sub-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-left: -5rem;
+
+}
